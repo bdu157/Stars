@@ -12,6 +12,8 @@
 		0B06273122850CED00D746D3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B06272F22850CED00D746D3 /* Main.storyboard */; };
 		0B06273322850CF000D746D3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0B06273222850CF000D746D3 /* Assets.xcassets */; };
 		0B06273622850CF000D746D3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B06273422850CF000D746D3 /* LaunchScreen.storyboard */; };
+		0B06273E2285115800D746D3 /* Star.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B06273D2285115800D746D3 /* Star.swift */; };
+		0B0627402285120200D746D3 /* StarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B06273F2285120200D746D3 /* StarController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		0B06273222850CF000D746D3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0B06273522850CF000D746D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0B06273722850CF000D746D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0B06273D2285115800D746D3 /* Star.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Star.swift; sourceTree = "<group>"; };
+		0B06273F2285120200D746D3 /* StarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				0B06273222850CF000D746D3 /* Assets.xcassets */,
 				0B06273422850CF000D746D3 /* LaunchScreen.storyboard */,
 				0B06273722850CF000D746D3 /* Info.plist */,
+				0B06273D2285115800D746D3 /* Star.swift */,
+				0B06273F2285120200D746D3 /* StarController.swift */,
 			);
 			path = "Stars (iOSPT1)";
 			sourceTree = "<group>";
@@ -135,6 +141,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0B06273E2285115800D746D3 /* Star.swift in Sources */,
+				0B0627402285120200D746D3 /* StarController.swift in Sources */,
 				0B06272E22850CED00D746D3 /* ViewController.swift in Sources */,
 				0B06272C22850CED00D746D3 /* AppDelegate.swift in Sources */,
 			);
